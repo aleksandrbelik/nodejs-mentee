@@ -1,8 +1,8 @@
-const { once } = require('events');
-const { createReadStream, createWriteStream } = require('fs');
-const { createInterface } = require('readline');
-var { EOL } = require('os');
-const csv = require('csvtojson')
+import { once } from 'events';
+import { createReadStream, createWriteStream } from 'fs';
+import { createInterface } from 'readline';
+import { EOL } from 'os';
+import csv from 'csvtojson';
 
 const csvFilePath = './csv/nodejs-hw1-ex1.csv';
 const txtFilePath = './txt/nodejs-hw1-ex1-line.txt';
